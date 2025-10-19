@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Book
+comment0.text=\r\n\ Book\ \uD074\uB798\uC2A4\uC758\ \uC124\uBA85\uC744\ \uC791\uC131\uD558\uC138\uC694.\r\n\r\n\ @author\ (PBL\#1\ 9\uD300)\r\n\ @version\ (2025.10.23)\r\n
+comment1.params=bookID\ title\ author\ publisher\ year
+comment1.target=Book(java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ int)
+comment1.text=\r\n\ Book\ \uD074\uB798\uC2A4\uC758\ \uAC1D\uCCB4\ \uC0DD\uC131\uC790\r\n
+comment2.params=
+comment2.target=java.lang.String\ getID()
+comment2.text=\r\n\ getID\ \uBA54\uC18C\uB4DC\ -\ \uB3C4\uC11C\ ID\uB97C\ \uBC18\uD658\r\n\r\n\ @return\ \uCC45ID\r\n
+comment3.params=
+comment3.target=java.lang.String\ toString()
+comment3.text=\r\n\ toString\ \uBA54\uC18C\uB4DC\ -\ \uC11C\uC9C0\uC815\uBCF4\ \uBC18\uD658\r\n\r\n\ @return\ \uC11C\uC9C0\uC815\uBCF4\r\n
+numComments=4

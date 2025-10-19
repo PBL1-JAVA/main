@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=LibDB
+comment0.text=\r\n\ LibDB\ \uD074\uB798\uC2A4\uC758\ \uC124\uBA85\uC744\ \uC791\uC131\uD558\uC138\uC694.\r\n\r\n\ @author\ (PBL\#1\ 9\uD300)\r\n\ @version\ (2025.10.23)\r\n
+comment1.params=
+comment1.target=LibDB()
+comment1.text=\r\n\ LibDB\ \uD074\uB798\uC2A4\uC758\ \uAC1D\uCCB4\ \uC0DD\uC131\uC790\r\n
+comment2.params=element
+comment2.target=void\ addElement(myClass.DB_Element)
+comment2.text=\r\n\ addElement\ \uBA54\uC18C\uB4DC\ -\ DB\uC5D0\ \uC694\uC18C\uB97C\ \uCD94\uAC00\r\n\r\n\ @param\ \ element\ \ \uCD94\uAC00\uD560\ \uAC1D\uCCB4\r\n
+comment3.params=id
+comment3.target=myClass.DB_Element\ findElement(java.lang.String)
+comment3.text=\r\n\ findElement\ \uBA54\uC18C\uB4DC\ -\ ID\uB85C\ \uAC1D\uCCB4\uB97C\ \uAC80\uC0C9\r\n\r\n\ @param\ \ id\ \ \uAC80\uC0C9\uD560\ ID\ \r\n\ @return\ \ \ \ \ \uCC3E\uC740\ \uAC1D\uCCB4\ \uB610\uB294\ null\r\n
+comment4.params=
+comment4.target=void\ printAllElement()
+comment4.text=\r\n\ printAllElement\ \uBA54\uC18C\uB4DC\ -\ \uBAA8\uB4E0\ \uAC1D\uCCB4\uB97C\ \uCD9C\uB825\r\n
+numComments=5
