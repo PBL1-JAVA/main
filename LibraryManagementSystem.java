@@ -88,7 +88,7 @@ public class LibraryManagementSystem
                 String title = st.nextToken();
                 String author = st.nextToken();
                 String publisher = st.nextToken();
-                int year = Integer.parseInt(st.nextToken());
+                int year = Integer.valueOf(st.nextToken());
                 bookDB.addElement(new Book(bookID, title, author, publisher, year));
             }
             fin.close();
