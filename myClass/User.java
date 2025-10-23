@@ -2,10 +2,12 @@ package myClass;
 
 
 /**
- * User 클래스의 설명을 작성하세요.
- *
+ * User 클래스 도서관 이용자 정보를 보관하는 클래스.
+ * 필드: stID(고유식별자), name
+ * getID()로 이용자 고유 식별자(stID) 문자열 반환
+ * toString()으로 stID와 name 문자열 반환
  * @author (PBL#1 9팀)
- * @version (2025.09.25)
+ * @version (2025.10.23)
  */
 public class User extends DB_Element {
     private String name;

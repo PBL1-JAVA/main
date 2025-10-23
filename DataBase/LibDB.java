@@ -4,8 +4,11 @@ import myClass.DB_Element;
 import java.util.ArrayList;
 import java.util.Iterator;
 /**
- * LibDB 클래스의 설명을 작성하세요.
- *
+ * LibDB 클래스
+ * ArrayList<t> 사용하여 addElements()로 요소 보관
+ * DB_Elements는 getID()로 검색
+ * printAllElement()로 전체 출력
+ * 
  * @author (PBL#1 9팀)
  * @version (2025.10.23)
  */

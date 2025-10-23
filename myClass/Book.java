@@ -2,8 +2,10 @@ package myClass;
 
 
 /**
- * Book 클래스의 설명을 작성하세요.
- *
+ * Book 클래스 도서 정보를 보관하는 클래스.
+ * 필드: bookID(고유식별자), title, author, publisher, year
+ * getID()로 도서 고유 식별자 반환
+ * toString()으로 필드를 문자열 반환
  * @author (PBL#1 9팀)
  * @version (2025.10.23)
  */
