@@ -12,7 +12,6 @@ import java.util.*;
  */
 public class LibraryManagementSystem
 {
-    // 인스턴스 변수 - 다음의 예제를 사용자에 맞게 변경하세요.
     LibDB<Book> bookDB;
     LibDB<User> userDB;
     HashMap<User, Book> loanDB;
@@ -20,9 +19,9 @@ public class LibraryManagementSystem
     /**
      * LibraryManagementSystem 클래스의 객체 생성자
      */
-    public LibraryManagementSystem()
+    public LibraryManagementSystem() 
     {
-        bookDB = new LibDB<Book>();
+        bookDB = new LibDB<Book>(); 
         userDB = new LibDB<User>();
         loanDB = new HashMap<User, Book>();
     }
@@ -33,11 +32,11 @@ public class LibraryManagementSystem
      * @param  userID  이용자ID
      * @param  bookID  책ID
      */
-    public void borrowBook(String userID, String bookID) {
+    public void borrowBook(String userID, String bookID) { //
         Book book= bookDB.findElement(bookID);
         User user = userDB.findElement(userID);
 
-        loanDB.put(user,book);
+        loanDB.put(user,book); 
     }
 
     /**
@@ -46,7 +45,7 @@ public class LibraryManagementSystem
      * @param  db  출력할 DB
      */
     public <T extends DB_Element> void printDB(LibDB<T> db) {
-        db.printAllElement();
+        db.printAllElements();
     }
 
     /**
