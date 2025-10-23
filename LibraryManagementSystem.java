@@ -92,6 +92,8 @@ public class LibraryManagementSystem
                 bookDB.addElement(new Book(bookID, title, author, publisher, year));
             }
             fin.close();
+            scan.close();
+            
 
         } catch (Exception e) {
             System.out.println("오류발생");
@@ -123,7 +125,7 @@ public class LibraryManagementSystem
                 userDB.addElement(new User(name,stID));
             }
             fin.close();
-
+            scan.close();
         } catch (Exception e) {
             System.out.println("오류발생");
         }
