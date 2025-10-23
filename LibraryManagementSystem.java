@@ -13,9 +13,9 @@ import java.util.*;
 public class LibraryManagementSystem
 {
     // 인스턴스 변수 - 다음의 예제를 사용자에 맞게 변경하세요.
-    LibDB<Book> bookDB;
-    LibDB<User> userDB;
-    HashMap<User, Book> loanDB;
+    private LibDB<Book> bookDB;
+    private LibDB<User> userDB;
+    public HashMap<User, Book> loanDB;
 
     /**
      * LibraryManagementSystem 클래스의 객체 생성자
