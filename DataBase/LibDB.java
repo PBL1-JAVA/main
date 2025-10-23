@@ -37,18 +37,13 @@ public class LibDB<T extends DB_Element>
      * @return     찾은 객체 또는 null
      */
     public T findElement(String id) {
-        Iterator<T> it = db.iterator();
-        T elem = null;
-
-        do {
-            while (it.hasNext()) {
-                elem = it.next();
-                if (elem.getID().equals(id)) {
-                    return elem;
-                }
+        Iterator<T> iterator = db.iterator();
+        while (iterator.hasNext()) {
+            T elem = iterator.next();
+            if(elem.getID().equals(id)){
+                return elem;
             }
-        } while (false);
-
+        }
         return null;
     }
     
@@ -61,4 +56,12 @@ public class LibDB<T extends DB_Element>
         }
     }
 
+    /**
+     * getSize 메소드 - DB 크기 반환
+     *
+     * @return DB에 저장된 요소의 개수
+     */
+    public int getSize() {
+        return db.size();
+    }
 }
