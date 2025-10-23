@@ -88,10 +88,12 @@ public class LibraryManagementSystem
                 String title = st.nextToken();
                 String author = st.nextToken();
                 String publisher = st.nextToken();
-                int year = Integer.parseInt(st.nextToken());
+                int year = Integer.valueOf(st.nextToken());
                 bookDB.addElement(new Book(bookID, title, author, publisher, year));
             }
             fin.close();
+            scan.close();
+            
 
         } catch (Exception e) {
             System.out.println("오류발생");
@@ -123,7 +125,7 @@ public class LibraryManagementSystem
                 userDB.addElement(new User(name,stID));
             }
             fin.close();
-
+            scan.close();
         } catch (Exception e) {
             System.out.println("오류발생");
         }
