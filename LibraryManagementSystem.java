@@ -34,10 +34,10 @@ public class LibraryManagementSystem
      * @param  bookID  책ID
      */
     public void borrowBook(String userID, String bookID) {
-        Book b= bookDB.findElement(bookID);
-        User u = userDB.findElement(userID);
+        Book book= bookDB.findElement(bookID);
+        User user = userDB.findElement(userID);
 
-        loanDB.put(u,b);
+        loanDB.put(user,book);
     }
 
     /**
