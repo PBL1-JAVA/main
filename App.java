@@ -14,7 +14,7 @@ public class App
         LibraryManagementSystem libMS = new LibraryManagementSystem();
         
         // ② setUserDB() 메소드에 UserData2025.txt 파일 경로를 전달하여 이용자DB를 설정
-        LibDB<User> userDB = libMS.setUserDB("C:\\Temp\\UserData2025.txt");
+        LibDB<User> userDB = libMS.setUserDB("C:\\Temp\\UserData2025.txt"); 
         // ③ printDB(userDB) 메소드를 호출하여 이용자DB를 출력
         System.out.println("----- 이용자 목록 출력 -----");
         libMS.printDB(userDB);

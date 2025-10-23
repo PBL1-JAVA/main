@@ -72,9 +72,9 @@ public class LibraryManagementSystem
      */
     public LibDB<Book> setBookDB(String bookFile) {
         try { // 8장 (p465) 참조 예외처리
-            FileReader fin = new FileReader(bookFile);
+            FileReader fin = new FileReader(bookFile); // 8장 파일입력스트림 생성 참조 (p.463), 파일 입력 스트림을 생성하고 스트림파일과 연결한다.
             Scanner scan = new Scanner(fin); //2장(p79) Scanner클래스 참조
-            ArrayList<String> array = new ArrayList<String>();
+            ArrayList<String> array = new ArrayList<String>(); // 7장 ArrayList 참조 (p.418), ArrayList는 스스로 용량을 조절
 
             while (scan.hasNext()) {
                 array.add(scan.nextLine());
@@ -110,7 +110,7 @@ public class LibraryManagementSystem
             try {
                 FileReader fin = new FileReader(userFile);
                 Scanner scan = new Scanner(fin);
-                ArrayList<String> array = new ArrayList<String>();
+                ArrayList<String> array = new ArrayList<String>(); 
     
                 while (scan.hasNext()) {
                     array.add(scan.nextLine());
