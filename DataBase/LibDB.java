@@ -11,7 +11,6 @@ import java.util.Iterator;
  */
 public class LibDB<T extends DB_Element>
 {
-    // 인스턴스 변수 - 다음의 예제를 사용자에 맞게 변경하세요.
     private ArrayList<T> db;
 
     /**
@@ -50,18 +49,9 @@ public class LibDB<T extends DB_Element>
     /**
      * printAllElement 메소드 - 모든 객체를 출력
      */
-    public void printAllElement() {
+    public void printAllElements() {
         for (T s : db) {
             System.out.println(s);
         }
-    }
-
-    /**
-     * getSize 메소드 - DB 크기 반환
-     *
-     * @return DB에 저장된 요소의 개수
-     */
-    public int getSize() {
-        return db.size();
     }
 }
